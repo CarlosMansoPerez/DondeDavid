@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café - Bar Donde David</title>
+    <link rel="icon" type="image/x-icon" href="/images/faviconPescao.ico">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body class="text-light text-center Fondo">
+
+<!--BARRA DE NAVEGACIÓN-->
+
+<nav class="navbar navbar-expand-lg navbar-dark FondoNegro">
+    <div class="container-fluid">
+        <a class="navbar-brand telefono" href="#inicio">Inicio <i class="bi bi-house-fill"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link active telefono" aria-current="page" href="#carta">Carta <i class="bi bi-card-list"></i></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active telefono" href="#fotos">Fotos <i class="bi bi-camera-fill"></i></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active telefono" href="#pedir">Pedir <i class="bi bi-telephone-fill"></i></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active telefono" href="#ubi">Ubicación <i class="bi bi-geo-alt-fill"></i></a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+
+<!--CARRUSEL DE FOTOS-->
+
+    <p class=""><h1 class="LetraTitulo letraNegra my-5 sombra tamanioTitulo">Café - Bar Donde David</h1></p>
+    <div id="carouselExampleCaptions" class="carousel slide my-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div id="inicio" class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="./images/terrazaA.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block sombra">
+                <h5 class="sombra">First slide label</h5>
+                <p class="sombra2 letraBlanca">Some representative placeholder content for the first slide.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="./images/frituraA.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="sombra">Second slide label</h5>
+                <p class="sombra letraBlanca">Some representative placeholder content for the second slide.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="./images/hamburguesaA.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="sombra">Third slide label</h5>
+                <p class="letraBlanca sombra">Some representative placeholder content for the third slide.</p>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--CARTA-->
+
+    <p id="carta"><h1 class=" LetraTitulo tamanioTitulo letraNegra my-5 sombra">Carta</h1></p>
+    <table class="table table-dark table-hover letraNormal p-2">
+        
+        <tbody class="text-start p-2">
+        
+            <td scope="row" class="letraDorada text-center">ENSALADAS</td>
+            <td></td>
+        
+        <tr>
+            <td scope="row" class="text-start ">Ensalada César / Tomate y Cebolla / Tropical</td>
+            <td class="text-start">5,00€</td>
+        </tr>
+        <tr>
+            <td scope="row"  class="text-start">Ensalada de la Casa</td>
+            <td class="text-start">6,00€</td>
+        </tr>
+        <tr>
+            <th scope="row"  class="text-start">Pimientos Asados</th>
+            <td class="text-start">5,00€</td>
+        </tr>
+        <td scope="row" class="letraDorada text-center">ENTRANTES</td>
+            <td></td>
+        <tr>
+            <th scope="row" class="text-start">Gambas al Pil-Pil</th>
+            <td class="text-start">7,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Croquetas</th>
+            <td class="text-start">7,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Patatas Bravas / Fritas</th>
+            <td class="text-start">4,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Mejillones al Vapor</th>
+            <td class="text-start">7,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Berenjenas con Miel</th>
+            <td class="text-start">6,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Carne con Tomate</th>
+            <td class="text-start">6,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Carrillada</th>
+            <td class="text-start">6,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Ensaladilla Rusa</th>
+            <td class="text-start">7,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Boquerones en Vinagre</th>
+            <td class="text-start">6,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Paella</th>
+            <td class="text-start">6,00€</td>
+        </tr>
+        <td scope="row" class="letraDorada text-center">MARISCOS</td>
+            <td></td>
+        <tr>
+            <th scope="row" class="text-start">Navajas</th>
+            <td class="text-start">6,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Gambones Plancha</th>
+            <td class="text-start">9,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Conchas Finas (Unidad)</th>
+            <td class="text-start">2,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Pulpo Plancha / Gallega / Frito</th>
+            <td class="text-start">11,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Calamar Plancha</th>
+            <td class="text-start">11,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Ventresca con Atún</th>
+            <td class="text-start" >11,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class="text-start">Almejas al Vino Jeréz / Marinera</th>
+            <td class="text-start">11,00€</td>
+        </tr>
+        <tr>
+            <th scope="row" class=" text-start">Tortilla de Camarones (Unidad)</th>
+            <td class="text-start">2,00€</td>
+        </tr>
+        <td scope="row" class="letraDorada text-center">CARNES</td>
+            <td></td>
+        <tr>
+            <th scope="row">Filetes de Pollo / Cerdo a la Crema</th>
+            <td class="text-start">7,00€</td>
+        </tr>
+        <tr>
+            <th scope="row">Pollo Empanado con Patatas</th>
+            <td class="text-start">7,00€</td>
+        </tr>
+        <tr>
+            <th scope="row">Espaguetis a la Boloñesa</th>
+            <td class="text-start">6,00€</td>
+        </tr>
+        <td scope="row" class="letraDorada text-center">FRITOS</td>
+            <td></td>
+        <tr>
+            <th scope="row">Chipirones</th>
+            <td class="text-start">7,00€</td>
+        </tr>
+        <tr>
+            <th scope="row">Calamares</th>
+            <td class="text-start">7,00€</td>
+        </tr>
+        <tr>
+            <th scope="row">Adobo</th>
+            <td class="text-start">7,00€</td>
+        </tr>
+        <tr>
+            <th scope="row">Boquerones Fritos</th>
+            <td class="text-start">7,00€</td>
+        </tr>
+        <tr>
+            <th scope="row">Boquerones al Limón</th>
+            <td class="text-start">7,00€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Chanquetes</th>
+            <td>7,00€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Chanquetes con Huevo</th>
+            <td>8,00€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Fritura Malagueña</th>
+            <td>11,00€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Rosada Frita / Plancha</th>
+            <td>11,00€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Rosada Frita al Limón</th>
+            <td>11,00€</td>
+        </tr>
+        <td scope="row" class="letraDorada text-center">BOCATAS</td>
+            <td></td>
+        <tr class="text-start">
+            <th scope="row">Hamburguesa</th>
+            <td>3,50€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Hot Dog</th>
+            <td>2,00€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Serranito de Cerdo / Pollo</th>
+            <td>3,50€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Bacon y Queso</th>
+            <td>3,50€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Pollo Completo</th>
+            <td>3,50€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Catalana</th>
+            <td>3,50€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Mixto</th>
+            <td>3,50€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Mollete Kebab</th>
+            <td>3,50€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Tortilla Francesa</th>
+            <td>3,50€</td>
+        </tr>
+        <tr class="text-start">
+            <th scope="row">Sándwich Club</th>
+            <td>3,50€</td>
+        </tr>
+        
+
+        
+        </tbody>
+    </table>
+
+
+    <!--GALERIA DE FOTOS-->
+
+    <div id="fotos" class="container my-5">
+        <p><h1 class="LetraTitulo tamanioTitulo letraNegra my-5 sombra">Fotos</h1></p>
+
+        <div class="row margenAbajo letraNormal sombra">
+            <div class="col col-xl-6 ">
+            <img class="foto" src="./images/bravasA.jpg" alt="">
+            <p class="fs-1 ">Patatas Bravas</p>
+            <p class=" letraPrecio"><b>4,00€</b></p>
+            </div>
+            <div class="col col-xl-6 ">
+            <img class="foto" src="./images/ensaladaA.jpg" alt="">
+            <p class="fs-1 ">Ensalada Tropical</p>
+            <p class=" letraPrecio sombra"><b>5,00€</b></p>
+            </div>
+        </div>
+        <div class="row my-5 letraNormal sombra">
+            <div class="col col-xl-4 ">
+            <img class="foto" src="./images/pulpoA.jpg" alt="">
+            <p class="fs-1 ">Pulpo a la Gallega</p>
+            <p class="letraPrecio">11,00€</p>
+            </div>
+            <div class="col col-xl-4 ">
+                <img class="foto" src="./images/ensaladillaA.jpg" alt="">
+                <p class="fs-1 ">Ensaladilla Rusa</p>
+            <p class="letraPrecio">7,00€</p>
+            </div>
+            <div class="col col-xl-4 ">
+            <img class="foto" src="./images/paellaA.jpg" alt="">
+            <p class="fs-1 ">Paella</p>
+            <p class="letraPrecio">6,00€</p>
+            </div>
+        </div>
+    </div>
+
+    <!--PEDIR-->
+
+    <div id="pedir" class="FondoNegro py-4">
+    <p><h1 class="LetraTitulo tamanioTitulo letraDorada my-5 sombra2">Pedir</h1></p>
+    <p class="letraNormal tamanioLetra Margen ">Puedes pedir comida desde cualquier sitio sólo contactando con nosotros,<br> para que cuando llegues solo tengas que recoger tu pedido y marcharte a disfrutarlo</p>
+    <img class="foto2 my-4" src="./images/terrazaA.jpg" alt="">
+    <p class="my-4 tamanioLetra letraNormal Margen">Llama aquí para encargar tu comida <i class="bi bi-arrow-down-circle-fill"></i> <br></p>
+    <a href="tel:+34640727752" class="text-decoration-none letraDorada"><p class="my-4 tamanioLetra2 letraNormal telefono"><i class="bi bi-telephone-fill"></i> 672 643 448</p></a>
+    </div>
+
+    <!--UBICACION-->
+
+    <p><h1 class="LetraTitulo tamanioTitulo letraNegra my-5 sombra">¿Dónde estamos?</h1></p>
+    <iframe id="ubi" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d200.40641937404052!2d-4.877666635990782!3d36.51786455670851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1645691120652!5m2!1ses!2ses" width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <p class="letraNormal tamanioLetra my-5 Margen sombra">Nos encontramos en la Plaza de toros de Marbella<br> junto a la Panadería Salduba</p>
+
+    <!--FOOTER-->
+
+    <div class="mt-5  FondoNegro">
+        <div class="container">
+            <div class="row ">
+                <div class="col sombra">
+                    <a class="text-decoration-none  tamanioLetra letraNormal " href=#inicio><p  class="my-5 sombra2 letraDorada">Café - Bar Donde David</p></a>
+                
+                    <a class="text-decoration-none text-light tamanioLetra3 letraNormal" href=#carta><p >Carta</p></a><br>
+                    <a class="text-decoration-none text-light tamanioLetra3 letraNormal" href=#fotos><p>Fotos</p></a><br>
+                    <a class="text-decoration-none text-light tamanioLetra3 letraNormal" href=#pedir><p>Pedir</p></a><br>
+                    <a class="text-decoration-none text-light tamanioLetra3 letraNormal" href=#ubi><p>Ubicación</p></a>
+                </div>
+                <div class="col sombra">
+                    <a class="text-decoration-none text-light tamanioLetra letraNormal" href=#inicio><p  class="my-5 sombra2 letraDorada">Sobre nosotros</p></a>
+                
+                    <a  href=""><img  class="logo my-2 Logo" src="./images/facebook.png"  alt="">   <br>  </a>
+                    <a   href=""><img class="logo my-2 Logo" src="./images/instagram.png" alt="">  <br> </a>
+                    <a   href=""><img class="logo my-2 Logo" src="./images/twitter.png" alt="">  <br> </a>
+                    <a   href="tel:+34640727752"><img class="logo my-3 Logo" src="./images/telefono.png" alt=""></a>
+                </div>
+                <p class="letraNormal tamanioLetra4 mt-3">&#169 Café - Bar Donde David  |  Calle Don Juan de Austria, 1, 29603 Marbella, Málaga</p>
+                <a href="tel:+34640727752" class="text-decoration-none text-light"><p class="letraNormal tamanioLetra4">Web creada por: Carlos Manso Pérez <i class="bi bi-chat-text-fill letraDorada"></i></p></a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

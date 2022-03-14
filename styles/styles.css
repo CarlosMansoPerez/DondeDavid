@@ -1,0 +1,102 @@
+/* ESTILO DE LA PÁGINA*/
+
+@font-face {
+    font-family: titulo ;
+    src: url(../fonts/Awake\ the\ Beauty.ttf);
+}
+.LetraTitulo{
+    font-family: titulo;
+}
+@font-face {
+    font-family: normal ;
+    src: url(../fonts/Louis\ George\ Cafe\ Bold.ttf);
+}
+.letraNormal{
+    font-family: normal;
+}
+.Fondo{
+    background-image: url(../images/madera.jpg);
+}
+.FondoNegro{
+    background-color: black;
+}
+.letraBlanca{
+    color: black;
+}
+.margenAbajo{
+    margin-bottom: 150px;
+}
+.letraDorada{
+    color: rgb(190, 150, 37);
+}
+.letraPrecio{
+    font-size: 3em;
+}
+.sombra{
+    text-shadow: 2px 2px 5px black;
+}
+.sombra2{
+    text-shadow: 1px 1px 1px white;
+}
+
+.foto{
+    width: 80%;
+}
+.foto2{
+    width: 45%;
+}
+.tamanioTitulo{
+    font-size: 4em;
+}
+.tamanioLetra{
+    font-size: 1.7em;
+}
+.tamanioLetra2{
+    font-size: 3em;
+}
+.tamanioLetra3{
+    font-size: 1.2em;
+}
+.tamanioLetra4{
+    font-size: 0.8em;
+}
+.margenIzq{
+    margin-left: 2000px;
+}
+
+.bi-arrow-up-circle-fill {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    color: white;
+    font-size: 2.5em;
+    transition: transform 0.8s;
+    }
+    .bi-arrow-up-circle-fill:hover {
+    transform: scale(2) rotate(360deg);
+    text-shadow: 1px 1px 1px white;
+    }
+    .bi-telephone-fill{
+        transition: transform 1.5s;
+    }
+    .bi-telephone-fill:hover{ 
+        text-shadow: 2px 2px 5px white;
+        color: white;
+    }
+    .telefono:hover{ 
+        text-shadow: 2px 2px 5px white;
+        color: white;
+    }
+    .logo{
+        width: 6%;
+    }
+
+
+    @media only screen and (max-width : 900px) {
+        .Logo{
+            width: 25%;
+        }
+        .Margen{
+            padding: 10px;
+        }
+        }
